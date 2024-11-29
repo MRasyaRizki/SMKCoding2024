@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Form</title>
+    <!-- Memanggil font Poppins -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <!-- Memanggil Library untuk ikon Font Awesome -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <!-- Menghubungkan ke file CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Background -->
+    <img class="bg" src="bg-registration.jpg" alt="Background Image">
+
+    <!-- Log Form -->
+    <div class="logbox">
+        <!-- Gambar pada bagian kiri -->
+        <div class="GambarDalam">
+            <img src="gambar.jpg" alt="Side Image">
+        </div>
+        <div class="form-section">
+            <h2>REGISTRATION FORM</h2>
+            <form action="#">
+                <div class="input-row">
+                    <div class="input-group">
+                        <input type="text" name="Ndepan" placeholder="First Name">
+                    </div>
+                    <div class="input-group">
+                        <input type="text" name="Nbelakang" placeholder="Last Name">
+                    </div>
+                </div>
+                <div class="input-group">
+                    <input type="text" name="username" placeholder="Username">
+                    <i class="fa fa-user icon"></i>
+                </div>
+                <div class="input-group">
+                    <input type="email" name="email" placeholder="Email Address">
+                    <i class="fa fa-envelope icon"></i>
+                </div>
+                <div class="input-group">
+                    <select name="gender">
+                        <option value="">Gender</option>
+                        <option value="male">Male</option>
+                        <option value="female">Female</option>
+                        <option value="other">Other</option>
+                    </select>
+                </div>
+                <div class="input-group">
+                    <input type="password" name="password" placeholder="Password">
+                    <i class="fa fa-lock icon"></i>
+                </div>
+                <div class="input-group">
+                    <input type="password" name="confirm-password" placeholder="Confirm Password">
+                    <i class="fa fa-lock icon"></i>
+                </div>
+                <button type="submit" class="register-button">Register <i class="fa fa-arrow-right"></i></button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
